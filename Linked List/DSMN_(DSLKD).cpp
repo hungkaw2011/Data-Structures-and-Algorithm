@@ -311,13 +311,13 @@ public:
 };
 int main() {
 	LIST students;
-    //Tu dong input cac gia tri
+        //Tu dong input cac gia tri
 	students.add(Student{ "ACC01", "TRAN VAN", " NAM", "Nam", 2002,2 });
 	students.add(Student{ "ACC02", "TRAN VAN", " PHONG", "Nam", 2003,2.3 });
 	cout << "Danh sach truoc update: \n";   
 	students.showList();
 	cout << "Ban Co Muon Nhap Them SV ?\nEnter *** De huy Nhap Them SV" << endl;
-    students.NhapDS(students);
+        students.NhapDS(students);
 	students.showList();
 	students.update(Student("ACC01", "", "", "", 0, 3.2));
 	cout << "Sau Khi Update Diem theo MaSV\n";
