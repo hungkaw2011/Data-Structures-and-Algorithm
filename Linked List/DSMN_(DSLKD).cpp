@@ -1,4 +1,6 @@
-﻿#include <iostream>
+//Author Hungka
+
+#include <iostream>
 #include<iomanip>
 #include<stdio.h>
 #include <string>
