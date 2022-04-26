@@ -221,7 +221,7 @@ public:
 				nodeX = nodeX->next; // chuyển tới node kế tiếp
 				++k;
 			}
-			if (x>k) {
+			if (x>=k) {
 				k = 1;
 				while (nodeX != nullptr && k < x) { // tìm nodeX
 					nodeX = nodeX->next; // chuyển tới node kế tiếp
